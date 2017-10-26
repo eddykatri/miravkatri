@@ -1,2 +1,1 @@
-# miravkatri
-miravkatri.com
+www.miravkatri.com
