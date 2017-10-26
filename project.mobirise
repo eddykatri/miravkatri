@@ -31,7 +31,7 @@
         "#000000"
       ]
     },
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/mk-128x78.png",
     "noImageResize": "",
     "google-analytics": "",
     "cookiesAlert": "",
