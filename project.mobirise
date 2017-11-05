@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Mirav Katri",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -851,7 +851,8 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Projects",
-        "order": 4
+        "order": 4,
+        "header_custom": "<script type=”text/javascript”>\n<!–\nif (screen.width <= 1000) {\nwindow.location = “http://m.miravkatri.com/page1.html”;\n}\n//–>\n</script>"
       },
       "components": [
         {
