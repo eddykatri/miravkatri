@@ -21,16 +21,33 @@
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
-  <script type=”text/javascript”>
-<!–
-if (screen.width <= 700) {
-window.location = “http://m.miravkatri.com”;
+  <script type="text/javascript">
+if (screen.width < 1081) {
+var ref = document.referrer;
+var urls = new Array("http://www.miravkatri.com","http://m.miravkatri.com");
+var n = ref.match(urls[0]);
+var m = ref.match(urls[1]);
+if ((m!==null) || (n!==null)) {
+stop;
 }
-//–>
+else if (ref=='') {
+var r = confirm("Small Display is Detected.\nClick \"OK\" for MOBILE SITE.");
+if (r==true) {
+window.location = "http://m.miravkatri.com";
+}
+else {
+stop ;
+}
+}
+else
+{
+window.location = "http://m.miravkatri.com";
+}
+}
 </script>
 </head>
 <body>
-<section class="menu cid-qyYcv04KTL" once="menu" id="menu1-3" data-rv-view="2926">
+<section class="menu cid-qyYcv04KTL" once="menu" id="menu1-3" data-rv-view="563">
 
     
 
@@ -62,7 +79,7 @@ window.location = “http://m.miravkatri.com”;
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.co/p">bootstrap navbar</a></section><section class="carousel slide cid-qyXQsAkS7p" data-interval="false" id="slider1-2" data-rv-view="2928">
+<section class="engine"><a href="https://mobirise.co/l">free bootstrap themes</a></section><section class="carousel slide cid-qyXQsAkS7p" data-interval="false" id="slider1-2" data-rv-view="565">
 
     
 
@@ -70,7 +87,7 @@ window.location = “http://m.miravkatri.com”;
 
 </section>
 
-<section class="mbr-section article content9 cid-qyZuc8AZId" id="content9-c" data-rv-view="2949">
+<section class="mbr-section article content9 cid-qyZuc8AZId" id="content9-c" data-rv-view="586">
     
      
 

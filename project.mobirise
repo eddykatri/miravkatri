@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Mirav Katri",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -47,7 +47,7 @@
         "main": true,
         "title": "Home",
         "meta_descr": "",
-        "header_custom": "<script type=”text/javascript”>\n<!–\nif (screen.width <= 700) {\nwindow.location = “http://m.miravkatri.com”;\n}\n//–>\n</script>",
+        "header_custom": "<script type=\"text/javascript\">\nif (screen.width < 1081) {\nvar ref = document.referrer;\nvar urls = new Array(\"http://www.miravkatri.com\",\"http://m.miravkatri.com\");\nvar n = ref.match(urls[0]);\nvar m = ref.match(urls[1]);\nif ((m!==null) || (n!==null)) {\nstop;\n}\nelse if (ref=='') {\nvar r = confirm(\"Small Display is Detected.\\nClick \\\"OK\\\" for MOBILE SITE.\");\nif (r==true) {\nwindow.location = \"http://m.miravkatri.com\";\n}\nelse {\nstop ;\n}\n}\nelse\n{\nwindow.location = \"http://m.miravkatri.com\";\n}\n}\n</script>",
         "footer_custom": "",
         "html_before": ""
       },
@@ -852,7 +852,8 @@
         "meta_descr": "Website Builder Description",
         "title": "Projects",
         "order": 4,
-        "header_custom": "<script type=”text/javascript”>\n<!–\nif (screen.width <= 1000) {\nwindow.location = “http://m.miravkatri.com/page1.html”;\n}\n//–>\n</script>"
+        "header_custom": "<script type=\"text/javascript\">\nif (screen.width < 1081) {\nvar ref = document.referrer;\nvar urls = new Array(\"http://www.miravkatri.com/page1.html\",\"http://m.miravkatri.com/page1.html\");\nvar n = ref.match(urls[0]);\nvar m = ref.match(urls[1]);\nif ((m!==null) || (n!==null)) {\nstop;\n}\nelse if (ref=='') {\nvar r = confirm(\"Small Display is Detected.\\nClick \\\"OK\\\" for MOBILE SITE.\");\nif (r==true) {\nwindow.location = \"http://m.miravkatri.com/page1.html\";\n}\nelse {\nstop ;\n}\n}\nelse\n{\nwindow.location = \"http://m.miravkatri.com/page1.html\";\n}\n}\n</script>",
+        "html_before": ""
       },
       "components": [
         {
